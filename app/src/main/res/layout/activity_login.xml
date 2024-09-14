@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/Login"
+    tools:context=".LoginActivity">
+    
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+            
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="270dp"
+                android:padding="20dp">
+                
+                <EditText
+                    android:layout_width="370dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/login_emailoutelefone"
+                    android:background="@drawable/borda_azul"
+                    android:layout_marginTop="30dp"
+                    android:padding="8dp"
+                    android:drawableLeft="@drawable/baseline_person_24"
+                    android:drawablePadding="8dp"
+                    android:hint="E-mail ou telefone"/>
+
+                <EditText
+                    android:layout_width="370dp"
+                    android:layout_height="60dp"
+                    android:id="@+id/login_senha"
+                    android:background="@drawable/borda_azul"
+                    android:layout_marginTop="30dp"
+                    android:padding="8dp"
+                    android:drawableLeft="@drawable/baseline_lock_24"
+                    android:drawablePadding="8dp"
+                    android:hint="Digite sua senha"/>
+                
+                <Button
+                    android:layout_width="370dp"
+                    android:layout_height="70dp"
+                    android:text="Entrar"
+                    android:id="@+id/login_botao"
+                    android:textSize="18sp"
+                    android:layout_marginTop="30dp"
+                    app:cornerRadius = "30dp"
+                    android:backgroundTint="@color/blue"
+                    android:textColor="@color/white"/>
+                
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/esqueciminhasenharedirecionar"
+                    android:text="Esqueci minha senha"
+                    android:layout_gravity="right"
+                    android:padding="8dp"
+                    android:textSize="18sp"
+                    android:layout_marginTop="1dp"
+                    android:textColor="@color/blue"
+
+
+
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
